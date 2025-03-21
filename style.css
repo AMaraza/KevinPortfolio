@@ -142,11 +142,11 @@ nav a:hover{
     }
 
     #nav_normal, #name_desktop{
-        display: none;
+        display: none !important;
     }
 
     #nav_mobile{
-        display: flex;
+        display: flex !important;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-evenly;
