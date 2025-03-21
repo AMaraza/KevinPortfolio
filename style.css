@@ -142,11 +142,11 @@ nav a:hover{
     }
 
     #nav_normal, #name_desktop{
-        display: none !important;
+        display: none;
     }
 
     #nav_mobile{
-        display: flex !important;
+        display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-evenly;
@@ -174,7 +174,7 @@ nav a:hover{
     }
 
     #featured_description {
-        width: 100% !important;
+        width: 100%;
         text-align: center;
     }
 
