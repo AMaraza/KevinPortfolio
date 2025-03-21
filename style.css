@@ -27,7 +27,7 @@ header i, header p{
 }
 
 #nav_mobile, #name_mobile{
-    display: none;
+    display: none !important;
 }
 
 header{
