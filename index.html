@@ -22,21 +22,30 @@
             </div>
         </div>
 
-        <nav>
+        <nav id="nav_normal">
             <a href="">Home</a>
             <a href="">Games</a>
             <a href="">Prototypes</a>
             <a href="">About</a>
         </nav>
+
+        <nav id="nav_mobile">
+            <a id="current_page">Home</a>
+            <a href="">Games</a>
+            <a href="">Prototypes</a>
+            <a href="">About</a>
+        </nav>
+
     </header>
 
     <main>
         <h2>Featured Projects</h2>
         <hr>
         <div id="main_content">
+            <p id="name_mobile">Game Name</p>
             <img id="featured_image" src="images/Sluggerpunk.gif" alt="3 Tennis Enemies I Created">
             <div id="featured_description">
-                <p>Game Name</p>
+                <p id="name_desktop">Game Name</p>
                 <p>Release Date: 01/01/2025</p>
                 <p id="role_header">Role: <div class="role">Role 1</div> <div class="role">Role 2</div></p>
                 <p id="tool_header">Tools: <div class="tools">Tool 1</div> <div class="tools">Tool 2</div></p>
@@ -52,5 +61,7 @@
         </div>
         <hr>
     </main>
+
+<script src="index.js"></script>
 </body>
 </html>
